@@ -16,6 +16,10 @@
   color: #fd6e0a;
 }
 
+.text-align {
+  text-align: center;
+}
+
 .secondary-bg {
   background-color: #fff8f3;
 }
@@ -129,4 +133,24 @@ nav ul li a {
 
 .item-description {
   font-weight: 600;
+}
+
+/* Skill Section  Style*/
+
+.skills-container {
+  display: flex;
+  gap: 24px;
+  margin-top: 50px;
+}
+
+.skill-section-description {
+  max-width: 900px;
+  text-align: center;
+  margin: 0 auto;
+}
+
+.skill {
+  border-radius: 5px;
+  padding: 30px;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
 }
